@@ -1,0 +1,445 @@
+@media (max-width: 960px){
+	#bg {
+		display: none;
+	}
+	
+	#mainContainer {
+		width: 100%;
+		margin: 0 auto 50px auto;
+		background-color: white;
+		z-index: 38;
+	    box-shadow: 0 2px 9px rgba(0, 0, 0, .5);
+	    border-top: 1px solid #666;
+	}
+
+	#addressSignContainer {
+	  margin-right: 8%;
+	}
+}
+
+@media (max-width: 960px){
+	/* services section */
+
+	
+	.service {
+	  width: 30%;
+	  margin: 2%;
+	}
+	
+	.fs1 {
+	  width: 96%;
+	  margin: 2%;
+	}
+	
+	
+	.showcase {
+	  width: 30%;
+	  margin: 2% 1%;
+	}
+	
+	.sc1 {
+	  width: 96%;
+	  margin: 2%;
+	}
+	
+	
+	.location {
+	  width: 30%;
+	  margin: 2%;
+	}
+	
+	.hl1 {
+	  width: 96%;
+	  margin: 2%;
+	}
+	
+	/*end services */
+
+}
+
+@media (max-width: 920px){
+	/* navigation */
+
+nav {
+    float: right;
+    margin: 15px 20px 0 0;
+    font-weight: 600;
+}
+
+nav li {
+
+	display: inline-block;
+	float: none;
+	padding: 10px 6px 2px 6px;
+	margin-left: 10px;
+	font-size: .75em;
+	display: inline-block;
+}
+	
+	/*end navigation */
+
+}
+
+
+@media (max-width: 900px){
+
+	.fs2, .sc2, .hl2 {
+	  font-size: 1.125em;
+	}
+	
+	.family {
+	  width: 45%;
+	  height: auto;
+	}
+	
+	.service1 {
+	  width: 45%;
+	  height: auto;
+	}
+
+	.calloutHours-text {
+	  width: 40%;
+	}
+	
+	.sidebar {
+		float: right;
+		width: 60%;
+	}
+	
+	.variety ul {
+		width: 40%;
+		margin-right: 5%;
+	}
+
+	#footerSocial {
+		margin: 30px 30px 0 30px;
+	}
+}
+
+@media (max-width: 800px){
+	nav li {
+		font-size: .66em;
+	}
+	.calloutHours-text {
+	  width: 100%;
+	}
+	.location1 {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 750px){
+	#addressSign {
+	  margin-right: 4%;
+	}
+
+	#addressSignContainer {
+	  margin-right: 3%;
+	}
+		
+	nav {
+  	  width: 95%;
+  	  margin: 0 auto 0 auto;
+	}
+	#footerSocial {
+		margin: 30px 10px 0 10px;
+	}
+	#footerAddress {
+	  width: 27.5%;
+	}
+
+}
+
+
+@media only screen and (max-width : 750px) {
+
+	header {
+	    height: 155px;
+	}
+	
+	#addressSignContainer {
+	  margin-top: 155px;
+	}
+	
+	nav {
+		clear: none;
+		position: absolute;
+	}
+	
+	#menu-icon {
+
+		display:inline-block;
+		top: 10px;
+		right: -10px;
+		position: absolute;
+
+	}
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		background: #fff;
+		border: 5px solid #c0985a;
+		right: -10px;
+		top: 50px;
+		width: 80%;
+		border-radius: 4px 0 4px 4px;
+		padding: 0;
+
+	}
+
+	nav li {
+
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		display: block;
+		border-bottom: 1px dashed #0b4b59;
+	}
+
+	nav li a {
+		width: 100%;
+		margin: 0;
+		display: block;
+		padding: 10px 20px;
+		background-color: #ffffff;
+	}
+	
+	nav li a:hover {
+		text-decoration: none;
+		background-color: #d2d1cf;;
+	}	
+	
+	nav:hover ul {
+		display: block;
+
+	}
+	
+	nav .current {
+		color: #0b4b59;
+		border-radius: 0;
+	  	background-color: #ffffff;
+		padding: 10px 20px;
+	
+	}
+	
+}
+
+@media (max-width: 700px){
+	h1 {
+		font-size: 1.25em;
+		color: #0b4b59;
+		font-weight: 300;
+	}
+	
+	.why-text {
+	  width: 94%;
+	  margin: 0 auto;
+	  font-size: .875em;
+	}
+	
+	.family {
+		float:none;
+		width: 80%;
+		margin: 2% 10%;
+	}
+
+	.callout-text {
+	  width: 94%;
+	  margin: 0 auto;
+	  font-size: .875em;
+	}
+	
+	.service1 {
+		float:none;
+		width: 80%;
+		margin: 2% 10%;
+	}
+	
+	.testimonial-text {
+	  width: 80%;
+	}
+
+	.footer-logo {
+	  float: none;
+	  margin: 17px auto;
+	}
+	
+	#footerSocial {
+	  width: 100%;
+	  float: none;
+	  clear: both;
+	  margin: 80px auto 30px auto;
+	}
+
+	#footerAddress {
+	  width: 100%;
+	  padding-top: 30px;
+	  text-align: center;
+	}
+}
+
+@media (max-width: 640px){
+	.pageTitle {
+		clear:both;
+	}
+	.calloutHours-text {
+	  width: 100%;
+	  float: none;
+	  clear: both;
+	  padding-top: 2em;
+	}
+	.sidebar {
+		float: none;
+		clear: both
+		width: 100%;
+	}
+	.location1 {
+		margin-left: 0;
+	}
+	.googleMap {
+		margin-left: 0;
+	}
+	.pageTitle h1 {
+		padding-top: 0px;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+
+	header {
+	    height: 220px;
+	}
+	#addressSignContainer {
+	  margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width : 578px) {
+
+
+	#addressSignContainer {
+	  margin-top: 12px;
+	}
+	
+	/* services section */
+
+	
+	.service {
+	  width: 80%;
+	  clear: both;
+	  margin: 3% 10% 0 10%;
+	}
+	
+	.fs1 {
+	  width: 96%;
+	  margin: 2%;
+	}
+	
+	.fs2 {
+	  font-size: 1.25em;
+	  line-height: 1.38;
+	  text-align: center;
+	}
+	
+	.showcase {
+	  width: 80%;
+	  clear: both;
+	  margin: 4% 10%;
+	}
+	
+	.sc1 {
+	  width: 96%;
+	  height: auto;
+	}
+	
+	.sc2 {
+	  font-size: 1.25em;
+	  line-height: 1.38;
+	  text-align: center;
+	}
+	
+	.location {
+	  width: 80%;
+	  clear: both;
+	  margin: 0 10% 3% 10%;
+	}
+	
+	.hl1 {
+	  width: 96%;
+	  margin: 2%;
+	}
+	
+	.hl2 {
+	  font-size: 1.25em;
+	  line-height: 1.38;
+	  text-align: center;
+	}
+	/*end services */	
+	
+	.variety ul {
+		width: 80%;
+		margin-right: 2%;
+	}
+
+}
+
+@media only screen and (max-width : 500px) {
+
+	#menu-icon {
+		right: 0;
+	}
+
+	nav ul, nav:active ul { 
+		right: 0;
+	}
+	
+	.sidebar {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 340px) {
+
+.mapWrapper {
+	margin: 6% 0 0 0;
+	clear: right; 
+	float: left;
+}
+.googleMap {
+	border: none;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+.pageTitle h1 {
+	font-size: 1.875em;
+}
+	
+}
+
+@media only screen and (max-width : 320px) {
+
+	header {
+	    height: 230px;
+	}
+	
+	.logo {
+	  margin-top: 30px;
+	}
+
+	
+	#menu-icon {
+		display:inline-block;
+		top: 5px;
+		right: 0;
+		position: absolute;
+	}
+	nav ul, nav:active ul { 
+		top: 40px;
+	}
+	
+}

@@ -1,0 +1,684 @@
+body {
+  	font: 400 1em/1.38 'Open Sans', sans-serif;
+  	color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/page-bg.jpg');
+    background-size: auto auto;
+    background-position: left bottom;
+    box-shadow: 0 -12px 5px rgba(0, 0, 0, .5);
+    background-repeat: repeat-x;
+}
+
+a {
+
+	color: #0b4b59;
+	text-decoration: none;
+
+}
+
+a:hover {
+
+	text-decoration: underline;
+
+}
+
+h1 {
+	font-size: 1.75em;
+	color: #0b4b59;
+	font-weight: 200;
+	margin: 1% 5% 0 5%;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #000000;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 1.25em;
+	color: #000000;
+	font-weight: 600;
+	padding-bottom: 2%;
+}
+
+h4 {
+	font-size: 1em;
+	color: #000000;
+	font-weight: 800;
+	padding-bottom: 2%;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+.emphasis {
+	font-weight: 600;
+}
+
+#bgbottom {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 127px;
+  margin: 0 auto;
+  border: 2px solid red;
+  background-image: url('../images/page-bg.jpg');
+  background-size: auto auto;
+  background-position: left bottom;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, .5);
+}
+
+#bg {
+  z-index: 1;
+  width: 100%;
+  height: 98px;
+  background-image: url('../images/page-bg.jpg');
+  background-size: auto auto;
+  background-position: left top;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  border-bottom: 1px solid #d2d1cf;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+#siteContainer {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#mainContainer {
+	width: 960px;
+	margin: -80px auto 50px auto;
+	background-color: white;
+	z-index: 38;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, .5);
+    border-top: 1px solid #666;
+}
+
+header {
+	background-image: url('../images/header-bg-2.jpg');
+    background-size: auto auto;
+    background-position: left top;
+    background-repeat: repeat-x;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    height: 160px;
+}
+
+/* header section */
+
+
+.logo {
+  display: block;
+  float: left;
+  width: 290px;
+  height: auto;
+  margin: 19px 0 0 20px;
+  overflow: hidden;
+}
+
+#addressSignContainer {
+  display: block;
+  position: relative;
+  float: right;
+  width: 271px;
+  height: 104px;
+  margin-right: 15%;
+  overflow: hidden;
+  background-image: url('../images/address-sign-2.png');
+  background-size: auto auto;
+  background-position: left top;
+  background-repeat: repeat-x;
+}
+
+#addressSign {
+  display: block;
+  position: absolute;
+  width: 240px;
+  height: 84px;
+  top: 10px;
+  left: 15px;
+  overflow: hidden;
+  border: 2px solid #0b4b59;
+  background-color: #ffffff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+}
+
+.address {
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  width: 80%;
+  margin: 10px 10% 5px 10%;
+}
+
+.phone {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  width: 80%;
+  margin: 0 10%;
+}
+
+/* end header section */
+
+/* navigation */
+
+nav {
+    float: left;
+
+    margin: -94px 0 0 35%;
+    font-weight: 600;
+}
+
+nav li a:link {
+	color: #0b4b59;
+}
+
+#menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #c0985a url(../images/menu-icon.png) center center;
+
+}
+
+a:hover#menu-icon {
+
+	background-color: #c0985a;
+	border-radius: 4px 4px 0 0;
+
+}
+
+
+nav ul {
+
+	list-style: none;
+
+}
+
+nav li {
+
+	display: inline-block;
+	float: left;
+	padding: 10px 10px 2px 10px;
+	margin-left: 10px;
+}
+
+nav .current {
+
+	color: #ffffff;
+	border-radius: 5px;
+  	background-color: #c0985a;
+  	padding: 2px 8px;
+
+}
+
+/*end navigation */
+
+.title {
+	clear: both;
+	padding: 2% 10% 3% 10%;
+	text-align: center;
+}
+
+.title h1 {
+	margin: 0;
+}
+
+
+.pageTitle h1 {
+	font-size: 2em;
+	font-weight: 400;
+	padding-top: 50px;
+}
+
+.pageTitle h2 {
+	font-weight: 400;
+	margin: 0 0 0 5%;
+	font-size: .9375em;
+	color: #000000;
+}
+
+/* services section */
+.services {
+  background-color: rgb(192, 152, 90);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, .5) inset, 0 2px 5px rgba(0, 0, 0, .5) inset;
+  padding: 2% 0;
+}
+
+
+.service {
+  position: relative;
+  float: left;
+  width: 280px;
+  height: auto;
+  margin: 0 0 0 30px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  padding-bottom: 1%;
+}
+
+.fs1 {
+  display: block;
+  width: 265px;
+  height: auto;
+  margin: 7px auto;
+  overflow: hidden;
+}
+
+.fs2 {
+  font-size: 1.375em;
+  line-height: 1.38;
+  text-align: center;
+}
+
+.showcase {
+  position: relative;
+  float: left;
+  width: 280px;
+  height: auto;
+  margin: 0 29px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  padding-bottom: 1%;
+}
+
+.sc1 {
+  display: block;
+  width: 265px;
+  height: auto;
+  margin: 7px auto;
+  overflow: hidden;
+}
+
+.sc2 {
+  font-size: 1.375em;
+  line-height: 1.38;
+  text-align: center;
+}
+
+.location {
+  position: relative;
+  float: left;
+  width: 280px;
+  height: auto;
+  margin: 0 30px 0 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  padding-bottom: 1%;
+}
+
+.hl1 {
+  display: block;
+  width: 265px;
+  height: auto;
+  margin: 7px auto;
+  overflow: hidden;
+}
+
+.hl2 {
+  font-size: 1.375em;
+  line-height: 1.38;
+  text-align: center;
+}
+/*end services */
+
+
+/* why section */
+
+.why {
+  position: relative;
+  clear: both;
+  margin: 6% auto;
+  width: 90%;
+}
+
+.why-text {
+  position: relative;
+  width: 50%;
+  margin-right: 2%;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+
+.family {
+	float:right;
+	margin-left: 2%;
+	height: auto;
+	width: 391px;
+}
+
+.AnniversaryLogo {
+	float: right;
+	padding: 0 0 10px 10px;
+	margin-top: -12px;
+}
+.calloutSpecial {
+	clear: both;
+	margin: 80px auto 10px auto;
+	border: 2px solid #1e98a5;
+	padding: 10px;
+}
+
+.calloutSpecial a {
+	color: #1e98a5;
+	text-decoration: underline;
+}
+/*end why section */
+
+/* services section */
+
+.callout {
+  position: relative;
+  clear: both;
+  margin: 6% auto;
+  width: 90%;
+  padding-bottom: 2em;
+}
+
+.border {  
+	border-bottom: 1px dotted #d2d1cf;
+}
+
+.callout-text {
+  position: relative;
+  width: 50%;
+  margin-right: 2%;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.callout-text h3 {
+	color: #c0985a;
+}
+
+.variety {
+	clear: both;
+	margin: 6% auto;
+}
+
+.variety ul {
+	float: left;
+	width: 23%;
+	margin-right: 2%;
+}
+
+.variety ul li {
+	list-style: inside disc;
+}
+
+ul.supplies {
+	margin-bottom: 22px;
+}
+
+ul.supplies li {
+	list-style: inside disc;
+	margin-bottom: 8px;
+}
+
+.service1 {
+	float:right;
+	margin-left: 2%;
+	height: auto;
+	width: 391px;
+	-webkit-box-shadow: 0 8px 6px -6px gray;
+	   -moz-box-shadow: 0 8px 6px -6px gray;
+	        box-shadow: 0 8px 6px -6px gray;
+	border: 6px solid #9a9490;
+	padding: 1px;
+	background-color: #ffffff;
+}
+
+.calloutDIY {
+	margin: 20px auto 10px auto;
+	border: 2px solid #1e98a5;
+	padding: 10px;
+}
+
+.calloutDIY a {
+	color: #1e98a5;
+	text-decoration: underline;
+}
+
+.hours {
+	font-size: 1.125em;
+}
+
+.info {
+	margin-bottom: 2em;
+}
+
+.calloutHours {
+  position: relative;
+  clear: both;
+  margin: 3% auto 6% auto;
+  width: 90%;
+  padding-bottom: 2em;
+    font-size: 0.813em;
+}
+
+.border {  
+	border-bottom: 1px dotted #d2d1cf;
+}
+
+.calloutHours-text {
+  position: relative;
+  width: 45%;
+  margin-right: 2%;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+
+.calloutHours table {
+	margin-bottom: 2em;
+}
+
+.calloutHours table tr {
+border-bottom: 1px dotted #d2d1cf;
+}
+
+.calloutHours table td {
+	padding: 0 1em .5em 0;
+	border-bottom: 1px dotted #d2d1cf;
+}
+
+.sidebar {
+	float: right;
+	width: 50%;
+}
+
+.sidebar p {
+	margin-bottom: 0;
+}
+
+.location1 {
+	float: left;
+	margin-left: 2%;
+	height: auto;
+	width: 391px;
+	-webkit-box-shadow: 0 8px 6px -6px gray;
+	   -moz-box-shadow: 0 8px 6px -6px gray;
+	        box-shadow: 0 8px 6px -6px gray;
+	border: 6px solid #9a9490;
+	padding: 1px;
+	background-color: #ffffff;
+}
+.mapWrapper {
+	margin: 6% 0 0 2%;
+	clear: right; 
+	float: left;
+}
+.googleMap {
+	border: 1px solid #d2d1cf;
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+/*end services section */
+
+
+/* project showcase */
+
+.projectShowcase {
+	width: 90%;
+	margin: 3% auto;
+	padding-bottom: 1em;
+	border-bottom: 1px dotted #d2d1cf;
+}
+
+.enlarge {
+	background-image: url('../images/magnifying-glass.png');
+    background-size: auto auto;
+    background-position: left bottom;
+}
+
+.projectShowcase h3 {
+	color: #c0985a;
+	padding-bottom: 0;
+}
+/* end project showcase */
+
+
+/* testimonials */
+
+.testimonial {
+  position: relative;
+  clear: both;
+  background-color: rgb(11, 75, 89);
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, .8) inset, 0 2px 5px rgba(0, 0, 0, .5) inset;
+}
+
+.testimonial-text {
+  width: 60%;
+  margin: 5% auto 1% auto;
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.testimonial-author {
+  clear: both;
+  width: 60%;
+  margin: 0 auto 3% auto;
+  font-style: italic;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+/* end testimonials */
+
+
+/* footer */
+
+footer {
+	background-color: white;
+	padding-bottom: 10px;
+	}
+
+.footer-logo {
+  display: block;
+  float: left;
+  width: 206px;
+  height: auto;
+  margin: 17px 0 0 2.91504%;
+  overflow: hidden;
+}
+
+#footerSocial {
+	float: left;
+	width: 33%;
+	margin: 30px 70px 0 70px;
+}
+
+.alist {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.ppfa {
+	margin: 1.5em auto;
+	text-align: center;
+}
+
+.social {
+  float: left;
+  clear: both;
+  width: 40%;
+  margin: 40px 30% 10px 30%;
+}
+.social-fb {
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 2.0;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 120px;
+  margin: 1em auto;
+  }
+
+.fb {
+  float: right;
+  overflow: hidden;
+  padding-left: 5px;
+}
+
+#footerAddress {
+  float: left;
+  margin: 30px 0 0 0;
+  width: 25%;
+}
+.footer-address {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+
+.footer-phone {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+
+.copyright {
+	clear: both;
+	padding-top: 2%;
+	margin: 6% auto 0 auto;
+	text-align: center;
+	font-size: .625em;
+}
+
+/* end footer */
+
+
+
+
+
+
+
+
